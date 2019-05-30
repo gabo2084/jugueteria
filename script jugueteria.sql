@@ -139,4 +139,3 @@ create table if not exists pedido_producto
     foreign key(id_pedido) references pedido(id_pedido),
     foreign key(id_producto) references producto(id_producto)
 );
-
