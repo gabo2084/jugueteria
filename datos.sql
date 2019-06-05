@@ -259,21 +259,29 @@ values (null, 1, 1),
 (null, 2, 6);
 
 
-/*Consultas para la tabla cliente_domicilio*/
+/*Datos para la tabla fabricante */
 
-/*Obtener el id, nombre, apellido, calle y nro del domicilio del cliente*/
-
-select cd.id_cliente_domicilio, c.nombre, c.apellido, d.calle, d.nro
-from cliente_domicilio as cd
-inner join cliente as c
-on cd.id_cliente = c.id_cliente
-inner join domicilio as d
-on cd.id_domicilio = d.id_domicilio;
+insert into fabricante
+values (null, '', '', '', '', '' ''),
+(null, '', '', '', '', '' ''),
+(null, '', '', '', '', '' ''),
+(null, '', '', '', '', '' ''),
+(null, '', '', '', '', '' '');
 
 
+/*Datos para la tabla fabricante_domicilio */
+
+insert into fabricante_domicilio
+values (null, , ),
+(null, , ),
+(null, , ),
+(null, , ),
+(null, , );
 
 
-on cd.id_cliente = c.id_cliente
-inner join domicilio as d
-on cd.id_domicilio = d.id_domicilio;
+
+
+
+
+
 
