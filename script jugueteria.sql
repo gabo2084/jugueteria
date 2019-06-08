@@ -133,7 +133,6 @@ create table if not exists pedido_producto
     id_pedido int unsigned not null,
     id_producto int unsigned not null,
     cantidad_producto int unsigned not null,
-    subtotal decimal(10,2) unsigned,
     
     primary key(id_pedido_producto),
     foreign key(id_pedido) references pedido(id_pedido),
