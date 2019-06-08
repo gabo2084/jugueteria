@@ -70,7 +70,6 @@ commit;
 begin;
 
 delete from pais
-
 where id_pais = 5;
 
 rollback;
